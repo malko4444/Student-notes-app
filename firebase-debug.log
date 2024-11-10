@@ -1,0 +1,113 @@
+[debug] [2024-11-10T11:16:05.494Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T11:16:05.499Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-11-10T11:16:05.500Z] CLI Version:   13.24.2
+[debug] [2024-11-10T11:16:05.500Z] Platform:      win32
+[debug] [2024-11-10T11:16:05.500Z] Node Version:  v22.11.0
+[debug] [2024-11-10T11:16:05.501Z] Time:          Sun Nov 10 2024 16:16:05 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-10T11:16:05.501Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T11:16:05.636Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T11:16:05.637Z] > authorizing via signed-in user (itxzubair45@gmail.com)
+[debug] [2024-11-10T11:16:05.638Z] [iam] checking project student-notes-app-d0cb3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-10T11:16:05.640Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:16:05.641Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:16:05.644Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions [none]
+[debug] [2024-11-10T11:16:05.645Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions x-goog-quota-user=projects/student-notes-app-d0cb3
+[debug] [2024-11-10T11:16:05.645Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-10T11:16:26.048Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:16:26.049Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions
+[debug] [2024-11-10T11:16:26.051Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:16:26.051Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:16:26.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 [none]
+[debug] [2024-11-10T11:16:48.277Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:16:48.278Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 (original: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET)
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-11-10T11:17:28.144Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T11:17:28.148Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-11-10T11:17:28.149Z] CLI Version:   13.24.2
+[debug] [2024-11-10T11:17:28.149Z] Platform:      win32
+[debug] [2024-11-10T11:17:28.149Z] Node Version:  v22.11.0
+[debug] [2024-11-10T11:17:28.150Z] Time:          Sun Nov 10 2024 16:17:28 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-10T11:17:28.150Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T11:17:28.258Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T11:17:28.259Z] > authorizing via signed-in user (itxzubair45@gmail.com)
+[debug] [2024-11-10T11:17:28.259Z] [iam] checking project student-notes-app-d0cb3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-10T11:17:28.261Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:17:28.261Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:17:28.262Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions [none]
+[debug] [2024-11-10T11:17:28.262Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions x-goog-quota-user=projects/student-notes-app-d0cb3
+[debug] [2024-11-10T11:17:28.263Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-10T11:17:48.905Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions, {"headers":{},"method":"POST","body":"{\"permissions\":[\"firebase.projects.get\",\"firebasehosting.sites.update\"]}"}): FetchError: request to https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:17:48.907Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/student-notes-app-d0cb3:testIamPermissions
+[debug] [2024-11-10T11:17:48.911Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:17:48.911Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:17:48.913Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 [none]
+[debug] [2024-11-10T11:18:10.610Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:18:10.611Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 (original: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET)
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-11-10T11:19:03.716Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T11:19:03.720Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2024-11-10T11:19:03.721Z] CLI Version:   13.24.2
+[debug] [2024-11-10T11:19:03.721Z] Platform:      win32
+[debug] [2024-11-10T11:19:03.721Z] Node Version:  v22.11.0
+[debug] [2024-11-10T11:19:03.722Z] Time:          Sun Nov 10 2024 16:19:03 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-10T11:19:03.722Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T11:19:03.820Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T11:19:03.821Z] > authorizing via signed-in user (itxzubair45@gmail.com)
+[debug] [2024-11-10T11:19:03.823Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:19:03.824Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:19:03.826Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2024-11-10T11:19:23.869Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=1000, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:19:23.870Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2024-11-10T11:19:24.369Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2024-11-10T11:20:33.669Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T11:20:33.674Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-10T11:20:33.675Z] CLI Version:   13.24.2
+[debug] [2024-11-10T11:20:33.675Z] Platform:      win32
+[debug] [2024-11-10T11:20:33.675Z] Node Version:  v22.11.0
+[debug] [2024-11-10T11:20:33.676Z] Time:          Sun Nov 10 2024 16:20:33 GMT+0500 (Pakistan Standard Time)
+[debug] [2024-11-10T11:20:33.676Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T11:20:33.810Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T11:20:33.812Z] > authorizing via signed-in user (itxzubair45@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\hackathon1\my-notes
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-10T11:20:44.505Z] Using project from CLI flag: student-notes-app-d0cb3
+[debug] [2024-11-10T11:20:44.506Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:20:44.507Z] Checked if tokens are valid: true, expires at: 1731240466659
+[debug] [2024-11-10T11:20:44.509Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 [none]
+[debug] [2024-11-10T11:21:04.172Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET
+[debug] [2024-11-10T11:21:04.173Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 (original: request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3 failed, reason: read ECONNRESET)
+[debug] [2024-11-10T11:21:04.551Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/student-notes-app-d0cb3
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project student-notes-app-d0cb3. Please make sure the project exists and your account has permission to access it.
